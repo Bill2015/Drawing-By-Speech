@@ -1,0 +1,74 @@
+/** ========================================================================================
+============================================================================================
+=================    這裡是給對圖片點右鍵時，所跳出訊息的 Menu Item  ========================== */
+.infoMenu{
+    -fx-background-color: black;
+    -fx-opacity: 0.75;
+}
+.infoMenuItem{
+    -fx-color:black;
+    -fx-opacity: 1.0;
+}
+.infoMenuItem:disabled{
+    -fx-color:black;
+    -fx-font-size: large;
+    -fx-background-color: transparent;
+}
+.infoMenuItem:focused {
+    -fx-color:black;
+    -fx-background-color: transparent;
+}
+.infoMenuItem:hover .label{
+    -fx-color:black;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+}
+/**========================================================================*/
+/**================= LockMenuItem 的 Label 用的 Css ========================*/
+.infoContent{
+    -fx-text-fill: white;
+    -fx-color:black;
+    -fx-opacity: 1.0;
+}
+
+.infoContent:hover{
+    -fx-text-fill: white;
+    -fx-color:black;
+    -fx-opacity: 1.0;
+}
+/**==============================================================================*/
+/**================== TextFieldMenuItem 的 Label 用的 Css ========================*/
+.text-info-MenuItem{
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-background-color: white, #252525, black;
+    -fx-background-insets: 0 0 -1 0, 0 1 1 1, 0 -1 1 -1;
+}
+.text-info-MenuItem:focused {
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-background-color: white, #afaeae, black;
+    -fx-background-insets: 0 0 -1 0, 0 1 1 5, 0 -1 1 -1;
+}
+
+/**==============================================================================*/
+/**================== ButtonMenuItem 的 Label 用的 Css ========================*/
+.button-info-MenuItem{
+    -fx-background-color: #272727;
+}
+
+.button-info-MenuItem .label{
+    -fx-font-weight: bold;
+}
+
+.button-info-MenuItem:hover {
+    -fx-background-color: #4b4b4b;
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-background-color: white, #afaeae, black;
+    -fx-background-insets: 0 0 -1 0, 0 1 1 5, 0 -1 1 -1;
+}
+
+.button-info-MenuItem:hover .label{
+    -fx-text-fill: white;
+}

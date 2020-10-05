@@ -1,0 +1,2 @@
+mvn javafx:run
+pause

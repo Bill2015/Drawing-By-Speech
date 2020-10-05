@@ -1,0 +1,20 @@
+.bordered-titled-title {
+  -fx-font-color: red!important;
+  -fx-background-color: rgb(104, 104, 104);;
+  -fx-translate-y: -10; /* play around with this value when changing the title font to get a vertically centered title */
+  -fx-translate-x: 5;
+}
+
+.bordered-titled-border {
+  -fx-font-size: 20px;
+  -fx-content-display: top;
+  -fx-border-insets: 20 15 15 15;
+  -fx-background-color: rgb(109, 109, 109);;
+  -fx-border-color: rgb(49, 49, 49); ;
+  -fx-border-width: 2;
+}
+
+.bordered-titled-content {
+  -fx-padding: 26 10 10 10;
+  -fx-font-size: 12px;
+}

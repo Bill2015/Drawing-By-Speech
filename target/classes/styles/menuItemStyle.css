@@ -1,0 +1,41 @@
+/** ========================================================================================
+============================================================================================
+=================     這裡是給 Slider 用的，所跳出訊息的 Menu Item   =========================*/
+.sliderMenu{
+    -fx-background-color: rgba(70, 70, 70, 0.377);
+    -fx-opacity: 0.9;
+}
+.sliderMenuItem{
+    -fx-background-color: rgb(70, 70, 70);
+    -fx-opacity: 1.0;
+}
+.sliderMenuItem:disabled{
+    -fx-background-color: rgb(70, 70, 70);
+}
+.sliderMenuItem:focused {
+    -fx-background-color: rgb(70, 70, 70);
+}
+.sliderMenuItem:hover{
+    -fx-background-color: rgb(70, 70, 70);
+}
+
+/** ========================================================================================
+============================================================================================
+=================    這裡是給對圖片點右鍵時，所跳出訊息的 Menu Item  ========================== */
+.alertMenu{
+    -fx-background-color: transparent;
+    -fx-opacity: 0.9;
+}
+.alertMenu .label{
+    -fx-text-fill:rgb(167, 0, 0)
+}
+.alertMenuItem{
+    -fx-font-weight: bold;
+    -fx-font-size: larger;
+}
+.alertMenuItem:focused {
+    -fx-background-color: transparent;
+}
+.alertMenuItem:hover{
+    -fx-background-color: transparent;
+}

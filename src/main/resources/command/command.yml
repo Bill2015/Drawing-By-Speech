@@ -1,0 +1,348 @@
+---
+name: DoNothingCommand
+date: 2020/05/02
+attribute:
+  description: "沒有任何功能，只用來等待指令"
+  englishName: "Do_Nothing"
+  chineseName: "不做事"
+  useTemporary: false
+  usage: "DoNothing"
+  args: [""]
+
+
+---
+name: ChangeLayerCommand
+date: 2020/05/02
+attribute:
+  description: "用來改變目前操作圖層的指令"
+  englishName: "Change_Layer"
+  chineseName: "改變操作圖層"
+  useTemporary: false
+  usage: "ChangeLayer [name]"
+  args: [""]
+
+
+---
+name: ChangeCavansSizeCommand
+date: 2020/05/02
+attribute:
+  description: "用來改變目前畫布大小的指令"
+  englishName: "Change_Cavans_Size"
+  chineseName: "改變畫布大小"
+  useTemporary: false
+  usage: "CavansSize [width] [height]"
+  args: [""]
+
+---
+name: NewImageFromLocalCommand
+date: 2020/06/02
+attribute:
+  description: "取得本地上的圖片"
+  englishName: "Add_Image_From_Local"
+  chineseName: "取得本地圖片"
+  useTemporary: false
+  usage: "newLocalImage [keyword]"
+  args: [""]
+
+---
+name: ChangeImageFromLocalCommand
+date: 2020/06/02
+attribute:
+  description: "從本地更換目前圖片"
+  englishName: "Change_Image_From_Local"
+  chineseName: "更換本地上的圖片"
+  useTemporary: false
+  usage: "ChangeImageLocal [LocalID]"
+  args: [""]
+
+
+---
+name: NewImageFromWebCommand
+date: 2020/05/02
+attribute:
+  description: "取得網路上的圖片"
+  englishName: "Add_Image_From_Web"
+  chineseName: "取得網路圖片"
+  useTemporary: false
+  usage: "newWebImage [keyword]"
+  args: [""]
+
+---
+name: ChangeImageFromWebCommand
+date: 2020/05/02
+attribute:
+  description: "從網路更換目前圖片"
+  englishName: "Change_Image_From_Web"
+  chineseName: "更換網路上的圖片"
+  useTemporary: false
+  usage: "ChangeImageWeb [NetID]"
+  args: [""]
+
+---
+name: ChangeToolCommand
+date: 2020/05/02
+attribute:
+  description: "用來更換工具的指令"
+  englishName: "Change_Tool"
+  chineseName: "工具"
+  useTemporary: true
+  usage: "ChageTool [Tool]"
+  args: [""]
+
+---
+name: SelectImageCommand
+date: 2020/05/02
+attribute:
+  description: "用來選擇圖片"
+  englishName: "Select_Image"
+  chineseName: "選擇圖片"
+  useTemporary: false
+  usage: "SelectImage [name | tag]"
+  args: [""]
+
+  
+---
+name: DrawCommand
+date: 2020/05/04
+attribute:
+  description: "語音繪圖"
+  englishName: "Draw"
+  chineseName: "畫"
+  useTemporary: false
+  usage: "speechDraw [int...]"
+  args: [""]
+---
+
+name: SetDetailCommand
+date: 2020/05/04
+attribute:
+  description: "語音工具細節"
+  englishName: "Set_Tool"
+  chineseName: "設定工具"
+  useTemporary: true  
+  usage: "setValue [name,value...]"
+  args: [""]
+
+---
+name: UndoCommand
+date: 2020/05/11
+attribute:
+  description: "復原上一步動作"
+  englishName: "Undo"
+  chineseName: "復原"
+  useTemporary: false  
+  usage: "undo"
+  args: [""]
+
+---
+name: RedoCommand
+date: 2020/05/11
+attribute:
+  description: "重作上一步動作"
+  englishName: "Redo"
+  chineseName: "重作"
+  useTemporary: false  
+  usage: "redo"
+  args: [""]
+
+---
+name: ImageAlignCommand
+date: 2020/05/26
+attribute:
+  description: "圖片對齊指令"
+  englishName: "Image_Align"
+  chineseName: "圖片對齊"
+  useTemporary: true
+  usage: "imagealign [動作]"
+  args: ["靠上", "靠下", "靠左", "靠右", "置中"]
+
+---
+name: ImageOpacityCommand
+date: 2020/05/26
+attribute:
+  description: "圖片透明度指令"
+  englishName: "Image_Opacity"
+  chineseName: "圖片透明度"
+  useTemporary: true
+  usage: "imageopacity [值]"
+  args: [""]
+
+---
+name: ImageRotationCommand
+date: 2020/05/26
+attribute:
+  description: "圖片旋轉指令"
+  englishName: "Image_Rotation"
+  chineseName: "圖片旋轉"
+  useTemporary: true
+  usage: "imagerotation [值]"
+  args: [""]
+
+---
+name: ImageMoveCommand
+date: 2020/05/26
+attribute:
+  description: "圖片移動指令"
+  englishName: "Image_Move"
+  chineseName: "圖片移動"
+  useTemporary: true
+  usage: "imagemove [值]"
+  args: ["往上", "往下", "往左", "往右", "一點", "很多"]
+
+
+---
+name: ImageFlipCommand
+date: 2020/05/26
+attribute:
+  description: "圖片翻轉指令"
+  englishName: "Image_Flip"
+  chineseName: "圖片翻轉"
+  useTemporary: true
+  usage: "imageflip [動作]"
+  args: ["水平", "垂直"]
+
+---
+name: ImageViewOrderCommand
+date: 2020/05/26
+attribute:
+  description: "圖片順序指令"
+  englishName: "Image_View_Order"
+  chineseName: "圖片順序"
+  useTemporary: true
+  usage: "imagevieworder [動作] "
+  args: ["至頂", "至底", "往上", "往下"]
+
+---
+name: LayerViewOrderCommand
+date: 2020/05/26
+attribute:
+  description: "圖層順序指令"
+  englishName: "Layer_View_Order"
+  chineseName: "圖層順序"
+  useTemporary: true
+  usage: "layervieworder [動作] "
+  args: ["至頂", "至底", "往上", "往下"]
+
+---
+name: ExportImageCommand
+date: 2020/05/31
+attribute:
+  description: "輸出圖片檔指令"
+  englishName: "Export_Image"
+  chineseName: "輸出圖檔"
+  useTemporary: false
+  usage: "exportimage"
+  args: []
+
+---
+name: SavingProjectCommand
+date: 2020/05/31
+attribute:
+  description: "儲存專案檔指令"
+  englishName: "Saving_Image"
+  chineseName: "儲存"
+  useTemporary: false
+  usage: "saving"
+  args: []
+
+---
+name: LayerClearCommand
+date: 2020/05/31
+attribute:
+  description: "清空圖層指令"
+  englishName: "Layer_Clear"
+  chineseName: "清空圖層"
+  useTemporary: false
+  usage: "layerclear"
+  args: ["確定"]
+
+
+---
+name: SetOutsideColorCommand
+date: 2020/05/31
+attribute:
+  description: "設定外框顏色指令"
+  englishName: "Set_OutsideColor"
+  chineseName: "外框顏色"
+  useTemporary: false
+  usage: "setOutsideColor"
+  args: [""]
+
+---
+name: SetInsideColorCommand
+date: 2020/05/31
+attribute:
+  description: "設定內框顏色指令"
+  englishName: "Set_InsideColor"
+  chineseName: "內框顏色"
+  useTemporary: false
+  usage: "setInsideColor"
+  args: [""]
+
+---
+name: SetFaceModeCommand
+date: 2020/06/04
+attribute:
+  description: "設定人臉模式指令"
+  englishName: "FaceMode"
+  chineseName: "人臉模式"
+  useTemporary: false
+  usage: "setMode"
+  args: [""]
+
+---
+name: SetNormalModeCommand
+date: 2020/06/04
+attribute:
+  description: "設定一般模式指令"
+  englishName: "NormalMode"
+  chineseName: "一般模式"
+  useTemporary: false
+  usage: "setMode"
+  args: [""]
+
+
+---
+name: SetMixModeCommand
+date: 2020/06/05
+attribute:
+  description: "設定混合模式指令"
+  englishName: "MixMode"
+  chineseName: "混合模式"
+  useTemporary: false
+  usage: "setMode"
+  args: [""]
+
+---
+name: ImageInfoCommand
+date: 2020/06/08
+attribute:
+  description: "查看圖片資訊指令"
+  englishName: "Image_Info"
+  chineseName: "查看圖片資訊"
+  useTemporary: false
+  usage: "imageInfo"
+  args: [""]
+
+---
+name: ImageSizeCommand
+date: 2020/06/08
+attribute:
+  description: "圖片大小指令"
+  englishName: "Image_Size"
+  chineseName: "圖片大小"
+  useTemporary: true
+  usage: "imagesize [數值1] [數值2]"
+  args: [""]
+
+---
+name: NewImageNaturalCommand
+date: 2020/06/06
+attribute:
+  description: "自然語言新增圖片指令"
+  englishName: "New_Image_Natural"
+  chineseName: "自然語言新增"
+  useTemporary: false
+  usage: "newImageNatural [基底] [物件1] [位置1] [物件2] [位置2] ....."
+  args: [""]
+

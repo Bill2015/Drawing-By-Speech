@@ -1,0 +1,86 @@
+{
+    "typescript.referencesCodeLens.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "todohighlight.keywords": [
+        {
+            "text": "App靜態呼叫：",
+            "color": "#5050ff",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "blue"
+        },
+        {
+            "text": "<主程式狀態切換>",
+            "color": "#f05ff0",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "<使用者輸入>",
+            "color": "#00e90f",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "<系統輸出字串>",
+            "color": "#00a00f",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "匿名函式宣告：",
+            "color": "#faf00f",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "監聽器：",
+            "color": "#9a30af",
+            "border": "0.5px solid #9a30af",
+            "borderRadius": "1px",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "<待改進>",
+            "color": "#a0ffe0",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "【指令】",
+            "color": "#a0f1e0",
+            "backgroundColor": "rgba(0,0,0,0)",
+            "overviewRulerColor": "#a0f1e0"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "blue",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "【EventFired】",
+            "color": "#903030",
+            "border": "1px solid #903030",
+            "borderRadius": "1px",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        },
+        {
+            "text": "≡",
+            "color": "#ff03b8",
+            "backgroundColor": "transparent",
+            "overviewRulerColor": "#ff03b8"
+        },
+        {
+            "text": "TODO:",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "1px",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ... 
+        }
+    ],
+    "todohighlight.isEnable": true,
+
+}

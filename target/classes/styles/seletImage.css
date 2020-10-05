@@ -1,0 +1,9 @@
+.main-img{
+
+}
+
+.main-img-selected{
+    -fx-border-color: blue; 
+    -fx-border-width: 5; 
+    -fx-border-style: segments(10, 15, 15, 15)  line-cap round;
+}

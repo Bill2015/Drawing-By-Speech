@@ -1,0 +1,12 @@
+.file-cell{
+    -fx-background-color: rgb(80, 79, 79);
+}
+.file-cell:hover{
+    -fx-background-color: rgb(32, 32, 32);
+}
+.filePane{
+    -fx-background-color: #484848;
+}
+.label{
+    -fx-text-fill: #cfcfcf;
+}

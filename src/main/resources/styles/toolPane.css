@@ -1,0 +1,115 @@
+
+
+/**==============================================================================*/
+/**====================== 所有tool的detailPane 用的 Css ==========================*/
+#tool_detail{
+    -fx-background-color: #242424;
+}
+
+.label{
+    -fx-text-fill: #cfcfcf;
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.radio-button{
+    -fx-text-fill: #cfcfcf;
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.check-box{
+    -fx-text-fill: #cfcfcf;
+    -fx-text-alignment: center;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+.color-pane:hover{
+    -fx-border-width: 5;
+    -fx-border-insets: -4;
+    -fx-border-color: #ff0000;
+}
+.color-pane:hover::after{
+    -fx-font-size: 36px;
+    -fx-color: blue;
+    -fx-content: "Yeeee";
+    -fx-border-width: 5;
+    -fx-border-insets: -4;
+    -fx-border-color: #ff0000;
+}
+.combo-box{
+    -fx-effect: innershadow( three-pass-box , #00000062 , 5 , 0.5 , -20 , 0 );
+}
+/**==============================================================================*/
+/**================== TextFieldMenuItem 的 Label 用的 Css ========================*/
+.text-field{
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-background-color: white, #252525, black;
+    -fx-background-insets: 0 0 -1 0, 0 1 1 1, 0 -1 1 -1;
+}
+.text-field:focused {
+    -fx-opacity: 1.0;
+    -fx-text-fill: white;
+    -fx-background-color: white, #afaeae, black;
+    -fx-background-insets: 0 0 -1 0, 0 1 1 5, 0 -1 1 -1;
+
+}
+#inputText{
+    -fx-text-fill: black;
+    -fx-background-color: black, #252525, #cecece;
+}
+#outputText{
+    -fx-highlight-fill: #8ce2fc;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: #00ff00;
+}
+#outputText .content{
+    -fx-background-color: #000000;
+}
+#hintText{
+    -fx-opacity: 0.7;
+    -fx-text-fill: #00ffea;
+    -fx-background-color: black;
+}
+
+
+/**==============================================================================*/
+/**======================= Tool Button 用的 Css Style ===========================*/
+.infoButton{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30;
+    -fx-font-family: "Yu Gothic UI Semibold";
+    -fx-background-color: white, #00d9ff,#000000;
+}
+.infoButton:hover{
+    -fx-background-color: white, #00d9ff, #1d1d1d;
+    -fx-background-insets: -2;
+    -fx-border-width: 2;
+    -fx-border-insets: -2;
+    -fx-border-radius: 5;
+    -fx-border-color: #00dffc;
+} 
+
+.toggle-button{
+    -fx-text-fill: white;
+    -fx-background-color: #5e5e5e;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #4d4d4d;
+}
+.toggle-button:selected{
+    -fx-text-fill: black;
+    -fx-background-color: #a8a8a8;
+    -fx-background-insets: -2;
+    -fx-border-width: 0 0 0 4;
+    -fx-border-insets: -2;
+    -fx-border-color: #003cff;
+}
+.toggle-button:hover{
+    -fx-text-fill: black;
+    -fx-background-color: #a8a8a8;
+    -fx-background-insets: -2;
+    -fx-border-width: 0 0 0 4;
+    -fx-border-insets: -2;
+    -fx-border-color: #00ccff;
+}

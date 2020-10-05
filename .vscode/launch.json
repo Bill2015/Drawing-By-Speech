@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NewMain",
+            "request": "launch",
+            "mainClass": "talkdraw.NewMain",
+            "projectName": "talkdraw"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "talkdraw.App",
+            "projectName": "talkdraw"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+/**=================================  Menu    =============================== */
+.menu-bar{
+    -fx-background-color: linear-gradient(to bottom, #131313, #2c2c2c);
+    -fx-opacity: 1.0;
+}
+.menu-bar .label{
+    -fx-text-fill: lightgray;
+    -fx-font-size: 16;
+}
+
+.menu:disabled{
+    -fx-opacity: 1.0;
+}
+.menu:disabled .label{
+    -fx-opacity: 1.0;
+}
+
+/**=============================  Menu Item     ============================= */
+.menu-item{
+    -fx-background-color: rgb(70, 70, 70);
+    -fx-opacity: 0.75;
+}
+.menu-item .label{
+    -fx-text-fill: lightgray;
+    -fx-font-size: 14;
+}
+
+.menu-item:hover{
+    -fx-background-color: #252525;
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: white;
+    -fx-translate-x: 5;
+}
+
+.context-menu {
+    -fx-background-color: rgba(70, 70, 70, 0.85);
+}
+
+/**============================= Check Menu Item     ============================= */
+.check-menu-item:checked
+{
+    -fx-mark-color: rgb(255, 255, 255) ;
+}
+
+
+/**============================= mode Label     ============================= */
+#normalMode,
+#proMode,
+#faceMode{
+    -fx-background-color: linear-gradient(to bottom, #131313, #2c2c2c);
+    -fx-opacity: 1.0;
+    -fx-text-fill: lightgray;
+    -fx-font-size: 14;
+    -fx-text-align: center;
+}
